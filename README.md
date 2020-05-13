@@ -18,3 +18,5 @@ CNN architecture of trained model attains at least 7% accuracy on the test set.
 
 CNN to Classify Dog Breeds Using Transfer Learning
 Model architecture that uses part of a pre-trained model with accuracy on the test set of 80%.
+
+The blogpost can be found on : https://medium.com/@abimbolamuritala65/dog-breed-classifier-dsnd-capstone-project-f798d0f9836
