@@ -27,7 +27,7 @@ dog_app.ipynb: Jupyter notebook containing the algorithm and process used to cre
 
 dog_app.pdf: A copy of dog_app.ipynb in pdf format.
 
-Haarcascades folder: Xml file for use with the OpenCv face detector class.
+dogbreedclassifier.zip:zip file for containing the dataset.
 
 Various images: Images in jpg and jpeg format used to test the algorithm's predictions.
 
