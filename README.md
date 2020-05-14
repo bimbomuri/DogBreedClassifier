@@ -1,22 +1,35 @@
 # Dog Breed Classifier #
 
-This project is a data capstone project for Udacity Data Science NanoDegree and I am to:
+# Project Overview #
+This project uses Convolutional Neural Networks (CNNs) and transfer learning in order to build a pipeline to process real-world, user-supplied images. Convolutional Neural Networks (CNNs) are commonly used to analyse image data. Transfer learning is a technique that allows to reuse a model across different tasks. The objective is that given an image of a dog, the algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed. If the algorithm can't identify the image as a human or dog, it will say so.
 
-Build a pipeline to process real-world, user-supplied images.
-Given an image of a dog, the algorithm will identify an estimate of the canine’s breed. If supplied an image of a human face, the code will identify the resembling dog breed.
+# Table of Contents #
+Libraries
+File Descriptions
+Content
+Findings
+Libraries
+Keras
+OpenCV
+Matplotlib
+Numpy
+File descriptions
+dog_app.ipynb: Jupyter notebook containing the algorithm and process used to create it.
+dog_app.html: A copy of dog_app.ipynb in html format.
+Haarcascades folder: Xml file for use with the OpenCv face detector class.
+Various images: Images in jpg and jpeg format used to test the algorithm's predictions.
+Contents
+The project is organized along the following steps:
 
-Detect Humans
-Assess the Human Face Detector The submission returns the percentage of the first 100 images in the dog and human face datasets that include a detected, human face.
+# Intro #
+Step 0: Import Datasets
+Step 1: Detect Humans
+Step 2: Detect Dog
+Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
+Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)
+Step 5: Write Your Algorithm
+Step 6: Test Your Algorithm
 
-Detect Dogs
-Use a pre-trained VGG16 Net to find the predicted class for a given image: dog_detector function returns True if a dog is detected in an image and False if not.
-
-Assess the Dog Detector The submission returns the percentage of the first 100 images in the dog and human face datasets that include a detected dog.
-
-CNN to Classify Dog Breeds from Scratch
-CNN architecture of trained model attains at least 7% accuracy on the test set.
-
-CNN to Classify Dog Breeds Using Transfer Learning
 
 I used Resnet50 pre-trained for dog detection and if found then used our version Resnet50 trained model to identify the breed.
 I used face detector to detect human face if found then used our version of Resnet50 to identity the resembling breed.
