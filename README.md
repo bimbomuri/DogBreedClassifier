@@ -25,7 +25,7 @@ Numpy
 
 dog_app.ipynb: Jupyter notebook containing the algorithm and process used to create it.
 
-dog_app.pdf: A copy of dog_app.ipynb in html format.
+dog_app.pdf: A copy of dog_app.ipynb in pdf format.
 
 Haarcascades folder: Xml file for use with the OpenCv face detector class.
 
